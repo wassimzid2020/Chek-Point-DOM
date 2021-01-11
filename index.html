@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://kit.fontawesome.com/85742f354d.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <header>
+      <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#"> Vente privée</a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNavDropdown"
+            aria-controls="navbarNavDropdown"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Hommes</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Femmes</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Enfants</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="#"
+                  id="navbarDropdownMenuLink"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  Bon Plans
+                </a>
+                <ul
+                  class="dropdown-menu"
+                  aria-labelledby="navbarDropdownMenuLink"
+                >
+                  <li><a class="dropdown-item" href="#">Hommes</a></li>
+                  <li><a class="dropdown-item" href="#">Femmes</a></li>
+                  <li>
+                    <a class="dropdown-item" href="#">Enfants</a>
+                  </li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <!-- ************Images************* -->
+      <div
+        id="carouselExampleIndicators"
+        class="carousel slide"
+        data-bs-ride="carousel"
+      >
+        <ol class="carousel-indicators">
+          <li
+            data-bs-target="#carouselExampleIndicators"
+            data-bs-slide-to="0"
+            class="active"
+          ></li>
+          <li
+            data-bs-target="#carouselExampleIndicators"
+            data-bs-slide-to="1"
+          ></li>
+          <li
+            data-bs-target="#carouselExampleIndicators"
+            data-bs-slide-to="2"
+          ></li>
+        </ol>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img
+              src="https://olimpsport.com/media/mageplaza/blog/post/image//o/l/olimp_live_and_fight_5.jpg"
+              class="d-block w-100" height="600px"
+              alt="..."
+            />
+          </div>
+          <div class="carousel-item">
+            <img
+              src="https://www.ceramiq-wear.com/img/cms/slide_avanatages.jpg"
+              class="d-block w-100" height="600px"
+              alt="..."
+            />
+          </div>
+          <div class="carousel-item">
+            <img
+              src="https://image.freepik.com/vecteurs-libre/mega-vente-lettrage-sacs-dans-panier_1262-15855.jpg"
+              class="d-block w-100" height="600px"
+              alt="..."
+            />
+          </div>
+        </div>
+        <a
+          class="carousel-control-prev"
+          href="#carouselExampleIndicators"
+          role="button"
+          data-bs-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </a>
+        <a
+          class="carousel-control-next"
+          href="#carouselExampleIndicators"
+          role="button"
+          data-bs-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </a>
+      </div>
+    </header>
+    <main>
+      <div id="Panier">
+        <div id="Somme-article">
+            <p>Sous-Total: <span id="Sous-Total">0</span></p> 
+            
+
+        </div>
+        
+        <div class="Liste-article">
+          <!-- article 1 -->
+          <div class="Info-article">
+              <div class="Like-dislike">
+                <i class="fas fa-times fa-2x"></i> <i class="fas fa-heart fa-2x"></i>
+
+              </div>
+              <div class="Image-article">
+                <img
+                src="https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,b_rgb:f5f5f5/34df8de9-c3d4-474b-bcdf-f141b89c7ef0/chaussure-air-max-270-pour-Xx2QfF.jpg"
+                alt="Imagearticle" width="200px"
+              />
+              </div>
+              <div class="Nom-article">
+                  <p> Air Max 270</p>
+              </div>
+              <div class="Nbr-article">
+                <button class="Btn-plus">+</button>
+                <span class="Qte"> 0 </span>
+                <button class="Btn-moins">-</button>
+              </div>
+              <div class="Prix-article">
+                  <span class="Prix-unitaire">100 </span>
+                  <span class="Somme-article"> 0 </span> $
+              </div>
+          </div>
+            <!-- article 2 -->
+          <div class="Info-article">
+              <div class="Like-dislike">
+                <i class="fas fa-times fa-2x"></i> <i class="fas fa-heart fa-2x"></i>
+
+              </div>
+              <div class="Image-article">
+                <img
+                src="https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/77017a13-4a70-4325-96d5-85f57d72ad4c/survetement-de-football-fff-strike-pour-c7cf6D.jpg"
+                alt="Imagearticle" width="200px"
+              />
+              </div>
+              <div class="Nom-article">
+                  <p> Survêtement de football pour Homme
+                    FFF Strike</p>
+             
+
+              </div>
+              <div class="Nbr-article">
+                <button class="Btn-plus">+</button>
+                <span class="Qte"> 0 </span>
+                <button class="Btn-moins">-</button>
+              </div>
+              <div class="Prix-article">
+                <span class="Prix-unitaire">50</span>
+                <span class="Somme-article"> 0 </span> $
+              </div>
+          </div>
+        
+          <!-- article 2 -->
+          <div class="Info-article">
+            <div class="Like-dislike">
+              <i class="fas fa-times fa-2x"></i> <i class="fas fa-heart fa-2x"></i>
+
+            </div>
+            <div class="Image-article">
+              <img
+              src="https://photos6.spartoo.com/photos/519/5190853/5190853_500_A.jpg"
+              alt="Imagearticle" width="200px"
+            />
+            </div>
+            <div class="Nom-article">
+              
+                <p> Nike Team Fall Jacket - Schwarz</p>
+
+            </div>
+            <div class="Nbr-article">
+              <button class="Btn-plus">+</button>
+              <span class="Qte"> 0 </span>
+              <button class="Btn-moins">-</button>
+            </div>
+            <div class="Prix-article">
+                <span class="Prix-unitaire">200 </span>
+                <span class="Somme-article"> 0 </span> $
+            </div>
+        </div>
+           
+        </div>
+
+      </div>
+    </main>
+
+    <script src="dom.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
+  </body>
+</html>

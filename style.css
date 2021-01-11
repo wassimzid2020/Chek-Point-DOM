@@ -1,0 +1,59 @@
+.fermer{
+    display:none;
+    background-color: blue;
+}
+
+
+#panier{
+    background-color: rgb(163, 163, 163);
+    
+    display: flex;
+    justify-content: center;
+
+}
+#Somme-article{
+    background-color: rgb(65, 61, 61);
+    text-align: center;
+    color: white;
+    size: 20px;
+    height: 30px;
+    
+
+}
+.Liste-article{
+    background-color: rgb(156, 161, 150);
+    padding:20px 250px;
+   
+    
+}
+.Info-article{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    background-color: rgb(255, 255, 255);
+   
+    
+    border: 1px solid black;
+}
+.Info-article div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 300px;
+    height: 250px;
+    padding: 5px;
+}
+.fas{
+    margin: 10px;
+    size: 10px;
+}
+.Btn-plus,.Btn-moins{
+    margin: 10px;
+  
+}
+.Prix-unitaire{
+    display: none;
+}
+/* .fa-heart{
+    color: red;
+} */
